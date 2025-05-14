@@ -61,6 +61,14 @@ nav > ul > li{
 .intro > p{
     line-height: 1.5em;
 }
+
+.intro-container{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    gap: 2em;
+}
 /* #home{
     display: flex;
     flex-direction: column;
