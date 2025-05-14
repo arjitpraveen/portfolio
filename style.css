@@ -7,9 +7,61 @@
     text-decoration: none;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
 section{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
+/* nav */
+
+nav{
+    display: flex;
+    /* align-items: center; */
+    padding: 20px 50px;
+    top: 30vh;
+    left: 0;
+    right: 0;
+
+    position: absolute;
+}
+nav > ul{
+    display: flex;
+    justify-content:center;
+    gap: 3em;
+
+
+    width: 100vw;
+    padding: 0 20px;
+    
+    /* position: absolute; */
+}
+
+nav > ul > li{
+    /* font-size: 20px; */
+    /* font-weight: 600; */
+    color: #0000ff;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2em;
+}
+
+.intro > p{
+    line-height: 1.5em;
+}
+/* #home{
+    display: flex;
+    flex-direction: column;
+} */
