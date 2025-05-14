@@ -69,6 +69,13 @@ nav > ul > li{
 
     gap: 2em;
 }
+.get-trolled{
+    text-decoration: underline;
+    color: blue;
+}
+.get-trolled::after{
+    color: blue;
+}
 /* #home{
     display: flex;
     flex-direction: column;
