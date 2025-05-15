@@ -39,6 +39,10 @@ nav > ul{
     gap: 3em;    
 }
 
+nav > ul > li{
+    color: blue;
+}
+
 .nav-link > a{
     text-decoration: none;
 }
@@ -96,10 +100,4 @@ span.name{
 
 .mario-div{
     text-align: center;
-}
-
-.test{
-    position: absolute;
-    bottom: 10%;
-    right: 10%;
 }
