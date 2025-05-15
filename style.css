@@ -20,7 +20,7 @@ section {
     min-width: 100vw;
 }
 
-.link, .get-trolled::after{
+.link, .link::after{
     color: #0000ff;
     text-decoration: underline;
 }
