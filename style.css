@@ -20,31 +20,27 @@ section {
     min-width: 100vw;
 }
 
+.link, .get-trolled::after{
+    color: #0000ff;
+    text-decoration: underline;
+}
 /* ====================== nav ====================== */
 
 nav {
-    display: flex;
-    position: absolute;
-
     padding: 20px 50px;
-    top: 30vh;
-    left: 0;
-    right: 0;
+    /* min-width: 550px; */
+    width: 100%;
 }
 
 nav > ul{
     display: flex;
-    flex-direction: row;
     justify-content:center;
 
-    width: 100vw;
-    padding: 0 20px;
     gap: 3em;    
 }
 
-.nav-link, .nav-link > a{
-    color: #0000ff;
-    
+.nav-link > a{
+    text-decoration: none;
 }
 
 .nav-link > a:hover{
@@ -52,6 +48,18 @@ nav > ul{
 }
 
 /* ====================== Home ==================== */
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: 2em; */
+    width: 100%;
+    max-width: 1200px;
+    padding: 2em;
+}
 
 .intro-container{
     display: flex;
@@ -67,12 +75,13 @@ nav > ul{
     justify-content: center;
     align-items: center;
 
-    gap: 2em;
+    gap: 1.5em;
+    max-width: 750px;
 }
 
 .about{
     line-height: 1.5em;
-    /* padding: 0px 10px 0px 10px; */
+    text-justify:inter-word;
 }
 
 .title {
@@ -81,14 +90,14 @@ nav > ul{
   font-style: normal;
 }
 
-.intro > .title > .name{
+span.name{
     font-style: italic;
 }
 
-.get-trolled, .get-trolled::after{
-    text-decoration: underline;
-    color: blue;
+.mario-div{
+    text-align: center;
 }
+
 .test{
     position: absolute;
     bottom: 10%;
