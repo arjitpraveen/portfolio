@@ -20,6 +20,16 @@ section {
     min-width: 100vw;
 }
 
+::-moz-selection{
+    color: #fff;
+    background: #0000ff;
+}
+
+::selection{
+    color: #fff;
+    background: #0000ff;
+}
+
 .link, .link::after{
     color: #0000ff;
     text-decoration: underline;
